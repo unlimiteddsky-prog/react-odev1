@@ -1,5 +1,6 @@
 import "./App.css";
 import MovieCard from "./components/MovieCard";
+import MovieInfo from "./components/MovieInfo";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <MovieCard title="Princess Mononoke" year={1997} />
       <MovieCard title="My Neighbor Totoro" year={1988} />
       <MovieCard title="Kiki's Delivery Service" year={1989} />
+
+      <MovieInfo yonetmen="Hayao Miyazaki" tur="Animasyon" />
       
     </div>
   );
